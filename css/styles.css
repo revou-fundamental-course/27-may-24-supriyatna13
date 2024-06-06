@@ -3,30 +3,42 @@
 nav{
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 nav>section {
     display: flex;
     align-items: center;
+    background-color: white;
 }
 
 .logo-icon {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-image: url(https://picsum.photos/200);
+    background-image: url(/assets/logo.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 
 .nav-item {
-    border: 1px solid black
-    padding: 8px
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.section-container {
+    background-color: aliceblue;
 }
 
 .banner-container {
-    height: 258px;
-    border: 1px solid black
+    height: 578px;
+    border: 1px solid black;
+    background-image: url(/assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .facility-list{
@@ -36,13 +48,70 @@ nav>section {
 
 .form-result {
     height: 100px;
-    border: 1px solid black
+    border: 1px solid black;
 }
 
 .message-us-section {
     display: flex;
+
+}
+
+.form-table {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.input-text,
+.input-date {
+    margin-left: 0;
+}
+
+.input-radio {
+    margin: 0;
+}
+
+.label {
+    display: flex;
+    width: 100px;
+}
+
+.pemisah {
+    tab-size: 10;
+}
+
+.button {
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
 }
 
 .result-container {
+    width: 600px;
+    margin-inline: auto;
+}
+
+.form-result{
+    width: 500px;
+    height: 180px;
+}
+
+.form-content {
+    margin-inline: 10px;
+}
+
+.footer {
+    bottom: 0;
     width: 100%;
+
+}
+
+.footer-content {
+    text-align: end;
+    padding-right: 0px;
+    border: 1px solid black;
+}
+
+.footer-body {
+    margin: 20px;
 }

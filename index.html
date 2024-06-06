@@ -20,7 +20,7 @@
     </nav>
 
     <hr>
-    <section>
+    <section class="section-container">
 
         <!-- Home -->
 
@@ -46,22 +46,24 @@
             <header>
                 <h1>Our Facilities</h1>
             </header>
+
             <article class="facility-list">
-                <div>
-                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div> 
+                <div style="text-align: -webkit-center;">
+
+                    <div style="width: 50px; height: 50px; border: 1px solid black; border-radius: 50%; text-align: center;"></div> 
                 <h5>Profesional Teacher</h5>
 
                 </div>
 
-                <div>
-                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div> 
-                <h5>Profesional Teacher</h5>
+                <div style="text-align: -webkit-center;">
+                    <div style="width: 50px; height: 50px; border: 1px solid black; border-radius: 50%;"></div> 
+                <h5>Sport Field</h5>
 
                 </div>
 
-                <div>
-                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div> 
-                <h5>Profesional Teacher</h5>
+                <div style="text-align: -webkit-center;">
+                    <div style="width: 50px; height: 50px; border: 1px solid black; border-radius: 50%;"></div> 
+                <h5>Classroom</h5>
 
                 </div>
                 
@@ -81,23 +83,72 @@
                 <!-- Form -->
                 <section>
                     <form>
-                        <label>Name</label>
-                        <input />
+                        <table>
+                            <body>
+                            <tr class="form-table">
+                                <td class="label">Nama</td>
+                                <td class="pemisah">:</td>
+                                <td>
+                                    <input type="text" class="input-text" name="nama" id="nama" placeholder="Isi Nama" />
+                                </td>
+                            </tr>
+                            <tr class="form-table">
+                                <td class="label">Tanggal Lahir</td>
+                                <td class="pemisah">:</td>
+                                <td>
+                                    <input type="date" class="input-date" name="tgl_lahir" id="tgl_lahir" />
+                                </td>
+                            </tr>
+                            <tr class="form-table">
+                                <td class="label">Jenis Kelamin</td>
+                                <td class="pemisah">:</td>
+                                <td>
+                                    <input type="radio" class="input-radio" id="laki-laki" name="jenis_kelamin" value="laki-laki" />
+                                    <label for="laki-laki">Laki-laki</label>
+                                    <input type="radio" class="input-radio" id="perempuan" name="jenis_kelamin" value="perempuan" />
+                                    <label for="perempuan">Perempuan</label>
+                                </td>
+                            </tr>
+                            <tr class="form-table">
+                                <td class="label">Pesan</td>
+                                <td class="pemisah">:</td>
+                                <td>
+                                    <textarea name="message" class="input-text" id="message" placeholder="Isi Pesanmu disini" rows="5"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" class="button" value="submit"/>
+                                </td>
+                            </tr>
+                        </body>
+                        </table>
                     </form>
                 </section>
 
                 <!-- Result -->
                 <section class="result-container">
-                    <div class="form-result"
+                    <div class="form-result">
+                        <p style="margin: 20px;"><b>Current time</b>: Thursday 6 June 2024 11:20:12 GMT+07.00</p>
+                        <p style="margin: 20px;"><b>Nama</b>: Hengki Kurniawan Saputra <br>
+                            <b>Tanggal lahir</b>: 06/13/1991 <br>
+                            <b>Jenis Kelamin</b>: Laki-laki <br>
+                            <b>Pesan</b>: Lagi Belajar buat Website
+
+                            </p>
+                    </div>
                 </section>
             </section>
         </section>
 
     </section>
-
+    <!-- Footer -->
     <footer>
+        <section class="footer-content">
+            <p class="footer-body">Created By Supriyatna &copy; 2024</p>
+        </section>
 
     </footer>
-    
+
 </body>
 </html>
