@@ -46,6 +46,24 @@ nav>section {
     justify-content: space-around;
 }
 
+.bg-profesionalteacher {
+    background-image: url(/assets/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-sportfield {
+    background-image: url(/assets/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-classroom {
+    background-image: url(/assets/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .form-result {
     height: 100px;
     border: 1px solid black;
