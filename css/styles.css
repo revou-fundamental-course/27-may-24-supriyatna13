@@ -15,7 +15,7 @@ nav>section {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-image: url(/assets/logo.jpg);
+    background-image: url(/assets/img/logo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -36,7 +36,7 @@ nav>section {
 .banner-container {
     height: 578px;
     border: 1px solid black;
-    background-image: url(/assets/background.jpg);
+    background-image: url(/assets/img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -47,19 +47,19 @@ nav>section {
 }
 
 .bg-profesionalteacher {
-    background-image: url(/assets/logo-teacher.jpg);
+    background-image: url(/assets/img/logo-teacher.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-sportfield {
-    background-image: url(/assets/logo-sportfield.jpg);
+    background-image: url(/assets/img/logo-sportfield.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-classroom {
-    background-image: url(/assets/logo-classroom.jpg);
+    background-image: url(/assets/img/logo-classroom.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
