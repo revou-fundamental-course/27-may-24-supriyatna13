@@ -15,7 +15,7 @@ nav>section {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-image: url(/assets/logo.png);
+    background-image: url(/assets/logo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
